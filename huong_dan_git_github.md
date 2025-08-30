@@ -13,6 +13,7 @@ $ git remote add origin https://github.com/<username>/<repo>.git
 ### Quy trình làm việc
 1. **Sửa file**
 2. <span style="color:red;font-weight:bold">Lưu file (Ctrl+S) — Việc này rất quan trọng! Luôn lưu file sau khi hoàn thành chỉnh sửa trước khi chạy git add, git commit.</span>
+> **Lưu ý:** Nên đóng các file không cần thiết trước khi lưu và commit để tránh tạo lại file rác cho dự án.
 3. **Thêm thay đổi vào Git**
    ```bash
    git add <ten_file>   # Thêm file chỉ định
